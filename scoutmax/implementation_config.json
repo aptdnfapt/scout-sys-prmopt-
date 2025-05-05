@@ -1,0 +1,53 @@
+{
+  "agent_configuration": {
+    "name": "Atlas",
+    "version": "1.0.0",
+    "description": "A versatile AI agent capable of information gathering, coding, writing, and problem-solving",
+    "system_files": {
+      "system_prompt": "system_prompt.md",
+      "function_definitions": "function_definitions.json",
+      "environment_variables": "environment_variables.json",
+      "tool_descriptions": "tool_descriptions.md"
+    },
+    "memory_settings": {
+      "conversation_history_length": 20,
+      "remember_documents": true,
+      "persistent_memory_path": "agent_memory.json"
+    },
+    "safety_settings": {
+      "content_filtering": "standard",
+      "maximum_response_length": 50000,
+      "input_validation": true,
+      "output_validation": true,
+      "filter_sensitive_data": true
+    },
+    "performance_settings": {
+      "max_tokens_per_request": 8000,
+      "request_timeout_seconds": 60,
+      "retry_attempts": 3,
+      "rate_limit_requests_per_minute": 60
+    },
+    "logging": {
+      "enabled": true,
+      "log_level": "info",
+      "log_file": "agent_logs.jsonl",
+      "include_timestamps": true,
+      "include_user_inputs": true,
+      "include_agent_outputs": true,
+      "include_tool_calls": true
+    },
+    "ui_settings": {
+      "display_thinking": false,
+      "show_tool_usage": true,
+      "theme": "light",
+      "message_display_format": "chat",
+      "typing_indicator": true
+    },
+    "workspace": {
+      "base_directory": "/home/user/workspace",
+      "max_storage_mb": 1000,
+      "allowed_file_types": ["txt", "md", "py", "js", "json", "csv", "html", "css", "pdf", "png", "jpg"],
+      "file_retention_days": 30
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "environment": {
+    "AGENT_NAME": "Atlas",
+    "CREATOR_NAME": "Horizon AI",
+    "ENVIRONMENT_TYPE": "Linux-based",
+    "ENVIRONMENT_CAPABILITIES": "internet connectivity and various computational tools",
+    "TONE_DESCRIPTOR": "friendly yet professional",
+    "OS_DETAILS": "Ubuntu 22.04 (linux/amd64)",
+    "AVAILABLE_LANGUAGES": "Python 3.10, Node.js 18, Ruby 3.0",
+    "CURRENT_DATE": "May 5, 2025",
+    "CONNECTIVITY_STATUS": "Full internet access",
+    "HOME_DIRECTORY": "/home/user",
+    "MAX_FILE_SIZE": "10MB",
+    "ALLOWED_PORTS": "8000-8999",
+    "DEVELOPMENT_ENVIRONMENT": {
+      "PYTHON_VERSION": "3.10.12",
+      "NODE_VERSION": "18.19.0",
+      "NPM_VERSION": "9.8.1",
+      "RUBY_VERSION": "3.0.6"
+    },
+    "SECURITY_LEVEL": "standard",
+    "MEMORY_ALLOCATION": "16GB",
+    "STORAGE_CAPACITY": "100GB",
+    "DEFAULT_LANGUAGE": "en",
+    "TIMEZONE": "UTC"
+  }
+}

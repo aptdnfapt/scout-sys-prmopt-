@@ -1,0 +1,55 @@
+{
+  "agent_name": "Helper",
+  "version": "1.0.0",
+  "description": "An AI assistant that can help with various tasks",
+  "capabilities": [
+    "web_search",
+    "web_browsing",
+    "file_operations",
+    "bash_execution",
+    "image_generation",
+    "coding",
+    "writing",
+    "research"
+  ],
+  "tools": {
+    "bash_run": {
+      "description": "Execute bash commands",
+      "enabled": true
+    },
+    "file_reader": {
+      "description": "Read file contents",
+      "enabled": true
+    },
+    "file_creator": {
+      "description": "Create files",
+      "enabled": true
+    },
+    "file_editor": {
+      "description": "Edit existing files",
+      "enabled": true
+    },
+    "web_search": {
+      "description": "Search for information on the web",
+      "enabled": true
+    },
+    "browser_navigate": {
+      "description": "Navigate to URLs",
+      "enabled": true
+    },
+    "image_generator": {
+      "description": "Generate images based on descriptions",
+      "enabled": true
+    }
+  },
+  "default_behavior": {
+    "message_style": "friendly_professional",
+    "thinking_style": "step_by_step",
+    "response_detail_level": "medium"
+  },
+  "safety_settings": {
+    "refuse_illegal_requests": true,
+    "refuse_harmful_content": true,
+    "content_filtering": "moderate"
+  }
+}

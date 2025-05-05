@@ -1,0 +1,48 @@
+{
+  "task_planning": {
+    "title": "{TASK_TITLE}",
+    "objective": "{TASK_OBJECTIVE}",
+    "task_decomposition": [
+      {
+        "id": 1,
+        "name": "{SUBTASK_NAME}",
+        "description": "{SUBTASK_DESCRIPTION}",
+        "estimated_duration": "{DURATION_ESTIMATE}",
+        "dependencies": [],
+        "status": "pending"
+      },
+      {
+        "id": 2,
+        "name": "{SUBTASK_NAME}",
+        "description": "{SUBTASK_DESCRIPTION}",
+        "estimated_duration": "{DURATION_ESTIMATE}",
+        "dependencies": [1],
+        "status": "pending"
+      },
+      {
+        "id": 3,
+        "name": "{SUBTASK_NAME}",
+        "description": "{SUBTASK_DESCRIPTION}",
+        "estimated_duration": "{DURATION_ESTIMATE}",
+        "dependencies": [2],
+        "status": "pending"
+      }
+    ],
+    "completion_criteria": [
+      "{CRITERION_1}",
+      "{CRITERION_2}",
+      "{CRITERION_3}"
+    ],
+    "constraints": [
+      "{CONSTRAINT_1}",
+      "{CONSTRAINT_2}"
+    ],
+    "progress_tracking": {
+      "current_task_id": 1,
+      "completed_tasks": [],
+      "overall_progress": 0,
+      "start_time": "{START_TIMESTAMP}",
+      "estimated_completion_time": "{COMPLETION_TIMESTAMP}"
+    }
+  }
+}
